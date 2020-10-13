@@ -1,4 +1,48 @@
 body {
-  width: 960px;
+  width: auto;
   margin: auto;
+  background-color: #f7f7f7;
+  font-family: Helvetica, serif;
+}
+
+.mainContainer {
+  width: -moz-max-content;
+  margin: auto;
+}
+
+.header {
+  height: 80px;
+  background-color: #4267b2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_left {
+  display: flex;
+  padding-left: 240px;
+  align-items: center;
+}
+
+.join-facebook {
+  padding-right: 240px;
+  color: white;
+}
+
+.logo {
+  font-family: Lucida Grande, serif;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 10px;
+  margin-bottom: 35px;
+}
+
+.register {
+  color: white;
+  background-color: limegreen;
+  border: #4267b2 1px solid;
+  border-radius: 4px;
+  padding: 3px 10px 3px 10px;
+  margin-bottom: -12px;
 }
